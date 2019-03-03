@@ -14,8 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:icon="@mipmap/logo">
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".WeatherActivity"
-            android:icon="@mipmap/logo" />
+            android:name=".WeatherActivity"/>
 
         <service
             android:name=".service.AutoUpdateService"

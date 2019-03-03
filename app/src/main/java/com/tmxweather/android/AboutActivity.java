@@ -41,7 +41,6 @@ public class AboutActivity extends AppCompatActivity
             public void onClick(View v) {
                 Intent intent = new Intent( AboutActivity.this, SettingActivity.class );
                 startActivity( intent );
-                finish();
             }
         });
     }

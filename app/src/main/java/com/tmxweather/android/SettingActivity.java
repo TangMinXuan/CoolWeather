@@ -42,14 +42,12 @@ public class SettingActivity extends AppCompatActivity
                     Intent intent = new Intent( SettingActivity.this,AboutActivity.class );
                     intent.putExtra( "extra_data","AppInfo" );
                     startActivity( intent );
-                    finish();
                 }
                 else if (chooseItem.equals( "关于作者" ))
                 {
                     Intent intent = new Intent( SettingActivity.this,AboutActivity.class );
                     intent.putExtra( "extra_data","AuthorInfo" );
                     startActivity( intent );
-                    finish();
                 }
             }
         } );
